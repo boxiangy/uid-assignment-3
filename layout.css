@@ -169,3 +169,8 @@ main {
     width: 891px;
     border-radius: 0 15px 15px 0;
 }
+
+footer {
+    margin-top: 20px;
+    margin-left: 380px;
+}

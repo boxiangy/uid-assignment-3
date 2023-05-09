@@ -1,0 +1,65 @@
+.nav li a {
+    font-size: 30px;
+    font-family: Mukta Mahee;
+}
+
+.search input::placeholder {
+    font-family: Mukta Mahee;
+	font-size: 20px;
+    line-height: 34px;
+	letter-spacing: 0px;
+}
+
+
+.main1 .location1 {
+    font-family: ITF Devanagari;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.main1 a {
+    font-family: ITF Devanagari;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.main1 h1 {
+    font-family: ITF Devanagari;
+	font-size: 77px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 116px;
+	letter-spacing: 0px;
+}
+
+.main1 p {
+    font-family: Elephant;
+	font-size: 70px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 86px;
+	letter-spacing: 0px;
+}
+
+.main1 .order {
+    font-family: ITF Devanagari;
+	font-size: 35px;
+	line-height: 53px;
+}
+
+.main1 .hd h3 {
+    font-size: 35px;
+    font-family: ITF Devanagari;
+	font-stretch: normal;
+}
+
+.main1 .hd a {
+    font-size: 25px;
+    font-family: ITF Devanagari;
+}
+
+.bd li .re-price {
+    font-size: 30px;
+    font-family: Mukta Mahee;
+    text-align: center;
+}

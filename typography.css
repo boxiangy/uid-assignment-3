@@ -63,3 +63,43 @@
     font-family: Mukta Mahee;
     text-align: center;
 }
+
+header-location h1 {
+    font-family: Elephant;
+	font-size: 90px;
+    line-height: 111px;
+}
+
+header-location .wrapper {
+    font-family: ITF Devanagari;
+	font-size: 40px;
+    line-height: 60px;
+    font-weight: 700;    
+}
+
+main-location .choose-location .location-name {
+    font-family: ITF Devanagari;
+	font-size: 30px;
+    line-height: 46px;
+    font-weight: 700;
+}
+
+main-location .choose-location .way {
+    font-family: ITF Devanagari;
+	font-size: 20px;
+	line-height: 38px;
+	opacity: 0.5;
+}
+
+main-location .choose-location .distance {
+    font-family: Mukta Mahee;
+	font-size: 15px;
+	line-height: 34px;
+	opacity: 0.5;
+}
+
+.location-choose .confirm {
+    font-family: ITF Devanagari;
+	font-size: 30px;
+	line-height: 46px;
+}

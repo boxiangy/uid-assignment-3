@@ -94,3 +94,19 @@ main-location .choose-location .distance {
     background-color: #efd2d2;
     color: #000;
 }
+
+main-confirm h1 {
+	color: #000000;
+}
+
+main-confirm h3 {
+	color: #0b0101;
+}
+
+main-confirm p {
+	color: #0b0101;
+}
+
+#customer-name {
+	color: #0b0101;
+}

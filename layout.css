@@ -240,3 +240,63 @@ main-location .choose-location .distance {
     border: 0;
     outline: none;
 }
+
+.logo-confirm {
+    margin-top: 50px;
+    margin-left: 775px;
+    width: 371px;
+    height: 82px;
+}
+
+header-confirm a img {
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+}
+
+main-confirm .smell {
+    margin-left: 695px;
+}
+
+main-confirm h1 {
+    margin-left: 480px;
+}
+
+main-confirm .line {
+    margin-left: 115px;
+    width: 1690px;
+	height: 0px;
+    border: solid 1px #707070;
+}
+
+main-confirm h3 {
+    margin-top: 10px;
+    margin-left: 800px;
+}
+
+main-confirm p {
+    margin-left: 740px;
+}
+
+#customer-name {
+    margin-left: 786px;
+}
+
+.check-order {
+    margin-top: 28px;
+    margin-left: 740px;
+}
+
+#classic-bowl {
+    margin-top: 0px;
+}
+
+main-confirm .subtotal {
+    margin-top: 10px;
+    margin-left: 720px;
+    font-family: Mukta Mahee;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0px;
+}

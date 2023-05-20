@@ -135,3 +135,15 @@ tab-content .item .description a:hover {
 tab-content .item {
     background-color: #fff;
 }
+
+#description2 {
+	color: #ffffff;
+}
+
+.price {
+    color: #ffd6d6;
+}
+
+.price button {
+    background-color: #ffffff;
+}

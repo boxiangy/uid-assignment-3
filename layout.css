@@ -341,3 +341,76 @@ tab-content .item img {
     width: 404px;
     height: 302px;
 }
+
+header-product h1 {
+    margin-top: 7px;
+    margin-left: 87px;
+}
+
+main-product {
+    display: flex;
+}
+
+main-product img {
+    margin-top: 25px;
+    margin-left: 87px;
+    width: 873px;
+	height: 654px;
+	border-radius: 15px;
+}
+detail-product {
+    display: flex;
+}
+
+#description {
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+#description2 {
+    margin-top: 17px;
+    margin-left: 40px;
+}
+
+.checkbox .checkbox-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox .checkbox-detail img {
+    margin-top: -1px;
+    width: 30px;
+	height: 30px;
+}
+
+main-product .checkbox {
+    margin-left: 40px;
+    margin-top: 70px;
+    width: 750px;
+    height: 195px;
+    background-color: #ebdede;
+    border-radius: 15px;
+}
+
+main-product .checkbox h3 {
+    padding-left: 23px;
+}
+
+main-product .checkbox input {
+    margin-left: 23px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: 43px;
+    padding-top: 60px;
+}
+
+.price button {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}

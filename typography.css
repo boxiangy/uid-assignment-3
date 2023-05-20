@@ -188,3 +188,44 @@ tab-content .item .description a {
 	font-size: 30px;
 	line-height: 50px;
 }
+
+header-product h1 {
+	font-family: Elephant;
+	font-size: 80px;
+	line-height: 98px;
+}
+
+#description {
+    font-family: Mukta Mahee;
+	font-size: 40px;
+    font-weight: 700;
+	line-height: 66px;
+}
+
+#description2 {
+    font-family: Mukta Mahee;
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 50px;
+	letter-spacing: 0px;
+}
+
+main-product .checkbox h3 {
+	font-family: Mukta Mahee;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 59px;
+}
+
+.price {
+	font-family: Mukta Mahee;
+	font-size: 50px;
+}
+
+.price button {
+    font-family: ITF Devanagari;
+	font-size: 20px;
+    font-weight: 700;
+    line-height: 53px;
+}

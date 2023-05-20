@@ -146,3 +146,45 @@ main-confirm p {
 	line-height: 34px;
 	letter-spacing: 0px;
 }
+
+main-confirm .subtotal {
+    font-family: Mukta Mahee;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0px;
+}
+
+header-menu .menu-title{
+    font-family: Elephant;
+	font-size: 80px;
+	line-height: 122px;
+}
+
+main-menu ul li {
+    font-family: Mukta Mahee;
+	font-size: 41px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 68px;
+	letter-spacing: 0px;
+}
+
+#item-name {
+    font-family: Mukta Mahee;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+#item-des {
+    font-family: Mukta Mahee;
+	font-size: 20px;
+	line-height: 34px;
+	letter-spacing: 0px;
+}
+
+tab-content .item .description a {
+	font-family: Mukta Mahee;
+	font-size: 30px;
+	line-height: 50px;
+}

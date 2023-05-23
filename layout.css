@@ -414,3 +414,112 @@ main-product .checkbox input {
     height: 50px;
     border-radius: 15px;
 }
+
+header-cart .wrapper img {
+    margin-top: 52px;
+    margin-left: 300px;
+    width: 371px;
+	height: 82px;
+}
+
+header-cart a img {
+    margin-left: 50px;
+}
+
+header-cart h1 {
+    margin-left: 115px;
+    margin-top: 9px;
+}
+
+header-cart h3 {
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+header-cart .position {
+    display: flex;
+    justify-content: space-between;
+}
+
+header-cart .position img {
+    margin-left: 125px;
+    margin-top: 15px;
+    width: 39px;
+	height: 39px;
+	opacity: 0.5;
+}
+
+header-cart .position a {
+    margin-right: 148px;
+}
+
+header-cart .line {
+    margin-left: 44px;
+    margin-top: 28px;
+    width: 1800px;
+	height: 0px;
+    border: solid 1px #707070;
+}
+
+main-cart .box{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+main-cart .top{
+    padding: 20px 10px;
+    align-items: center;
+}
+
+main-cart .top button{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}
+
+main-cart table{
+    width: 880px;
+    text-align: center;
+    margin: 0 auto;  
+}
+
+main-cart table tr td{
+    padding: 10px 0;
+}
+
+main-cart table tr td img{
+    width: 230px;
+    height: 170px;
+}
+
+main-cart table tr td input{
+    width: 45px;
+}
+
+main-cart table tr td button{
+    width: 20px;
+    height: 20px;
+}
+
+main-cart .foot{
+    width: 680px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px dotted gray;
+}
+
+main-cart .foot span:nth-of-type(2){
+    margin-right: 150px;
+}
+
+main-cart .foot button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+}

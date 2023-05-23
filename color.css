@@ -147,3 +147,37 @@ tab-content .item {
 .price button {
     background-color: #ffffff;
 }
+
+header-cart .position {
+	color: #0b0101;
+}
+
+header-cart .position a:hover {
+    color: #fff;
+}
+
+main-cart .cart-order {
+	background-color: #f7e2e2;
+}
+
+main-cart .cart-order h3 {
+	color: #0b0101;
+}
+
+main-cart .box{
+    background-color: #f7e2e2;
+}
+
+main-cart .top button{
+    background-color: green;
+    color: white;
+}
+
+main-cart .foot span:nth-of-type(2){
+    color: green;
+}
+
+main-cart .foot button{
+    background-color: #000;
+    color: white;
+}

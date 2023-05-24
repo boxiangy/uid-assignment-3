@@ -181,3 +181,62 @@ main-cart .foot button{
     background-color: #000;
     color: white;
 }
+
+main-checkout .item-summary {
+    background-color: #fff;
+}
+
+main-checkout .item-summary input {
+    color:#444;
+}
+
+main-checkout .container form{
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+}
+
+main-checkout .container form .inputBox span{
+    color:#999;
+}
+
+main-checkout .container form .inputBox input,
+.container form .inputBox select{
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
+
+main-checkout .container form .submit-btn{
+    background:linear-gradient(45deg, #e9cdcd, #786a6a);
+    color:#fff;
+}
+
+main-checkout .container .card-container .front{
+    background:linear-gradient(80deg, #e9cdcd, #786a6a);
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+}
+
+main-checkout .container .card-container .front .card-number-box{
+    color:#fff;
+}
+
+main-checkout .container .card-container .front .flexbox .box{
+    color:#fff;
+}
+
+main-checkout .container .card-container .back{
+    background:linear-gradient(80deg, #e9cdcd, #786a6a);
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+}
+
+main-checkout .container .card-container .back .stripe{
+    background: #000;
+}
+
+main-checkout .container .card-container .back .box span{
+    color:#fff;
+}
+
+main-checkout .container .card-container .back .box .cvv-box{
+    color:#333;
+    background: #fff;
+}

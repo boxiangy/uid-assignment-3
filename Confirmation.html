@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <style>
+      input::placeholder {
+          font-size: .2rem;
+      }   
+    </style>
+    <title>Confirmation</title>
+  </head>
+  <body>
+    <!-- logo -->
+    <div id="top">
+      <img id="confirm-back"
+        onclick="goIndexPage('./checkout.html')"
+        src="./images/arrow_back_FILL0_wght700_GRAD200_opsz48.png"
+        alt=""
+      />
+      <img id="confirm-logo"
+        src="./images/Green-Cup_Logo.svg"
+        alt=""
+      />
+      <div></div>
+    </div>
+    <div class="confirm-body">
+      <img src="./images/135773.png" alt="" />
+      <h2>Order Confirmed</h2>
+      <hr />
+      <!-- order detail -->
+      <h3>Order Summary</h3>
+      <span>Transaction number:20230413452</span>
+      <span>Customer name:Boxiang</span>
+      <div class="confirm-bottom">
+        <div class="confirm-detail">
+          <span>Fresh Bowl</span>
+          <span>Green Magic</span>
+        </div>
+        <div class="confirm-detail">
+          <span class="confirm-price">$15.00</span>
+          <span class="confirm-price">$14.00</span>
+        </div>
+      </div>
+      <div id="confirm-sub">
+        <div>Subtotal</div>
+        <div>$29.00</div>
+      </div>
+    </div>
+    <script src="./js/js.js"></script>
+  </body>
+</html>

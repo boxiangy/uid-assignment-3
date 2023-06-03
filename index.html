@@ -1,76 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/typography.css">
     <title>Green Cup</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="color.css">
-    <link rel="stylesheet" href="typography.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="./materials/Green-Cup_Logo.svg" alt="">
+  </head>
+  <body>
+    <!-- create logo -->
+    <div class="top"> 
+      <img
+        style="width: 20%;transform: translateY(-0.15rem);"
+        src="./images/Green-Cup_Logo.svg"
+        alt=""
+      />
+      <!-- create navigation bar -->
+      <div class = "navigation">
+        <a  href="./Menu.html">Menu</a>
+        <a  href="#">Jobs</a>
+        <a  href="#">Locations</a>
+        <a  href="#">Privacy policy</a>
+        <a  href="#">Terms of use</a>
+      </div>
+      <!-- create location function -->
+      <div class="search">
+        <input
+          placeholder="Search Your Food..."
+          type="text"
+        />
+        <img
+          src="./images/search_FILL0_wght700_GRAD0_opsz48.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="index-body">
+      <div class="left">
+        <div class="index-location">
+          <div id="location">
+            Location
+          </div>
+          <img
+            src="./images/location_on_FILL0_wght700_GRAD0_opsz48.png"
+            alt=""
+          />
+          <p><a href="./Location.html">Melbourne</a></p>
         </div>
-        <div class="nav">
-            <ul>
-                <li><a href="./Menu.html" target="_blank">Menu</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Location</a></li>
-                <li><a href="#">Privacy policy</a></li>
-                <li><a href="#">Terms of use</a></li>
-            </ul>
+        <!-- discount for user to see -->
+        <div id="discount">
+          $15.2 Classic Bowl
         </div>
-        <div class="search">
-            <img src="./materials/search_FILL0_wght700_GRAD0_opsz48.png" alt="">
-            <input type="text" placeholder="Search Your Food...">
+        <div id="discount-number">
+          Up To 60%
         </div>
-    </header>
-
-    <main>
-        <div class="main1">
-            <div class="index-location">
-                <button class="location1">Location</button>
-                <div class="location"><img src="./materials/location_on_FILL0_wght700_GRAD0_opsz48.png" alt=""></div>
-                <div><a href="./location.html" target="_blank">Melbourne</a></div>
-            </div>
-            <h1>$15.2 classic bowl</h1>
-            <p>Up to 60%</p>
-            <a href="./Menu.html" target="_blank"><button class="order">Order Now</button></a>
-            <div class="recommend">
-                <div class="hd">
-                    <h3>Recommend Food</h3>
-                    <a href="./Menu.html" target="_blank">View all</a>
-                </div>
-                <div class="bd">
-                    <ul>
-                        <li>
-                            <img src="./materials/截屏2023-04-13 11.07.46.png" alt="">
-                            <div class="re-price">$15.20</div>
-                        </li>
-                        <li>
-                            <img src="./materials/截屏2023-04-13 11.14.11.png" alt="">
-                            <div class="re-price">$15.20</div>
-                        </li>
-                        <li>
-                            <img src="./materials/截屏2023-04-13 11.15.59.png" alt="">
-                            <div class="re-price">$19.00</div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <!-- can click and then to menu page -->
+        <a id="order-now" href="./Menu.html">Order Now</a>
+        <!-- recommend to user -->
+        <div class="recommend">
+          <span style="font-weight: 700;">Recommend Food</span>
+          <span style="color: #ccc;"><a href="./Menu.html">View all</a></span>
         </div>
-        <div class="main2">
-            <img src="./materials/截屏2023-05-09 12.03.12.png" alt="">
+        <div class="index-recommend">
+          <div class="recommend-detail">
+            <img
+              src="./images/截屏2023-04-13 11.07.46.png"
+              alt=""
+            />
+            <span>$15.20</span>
+          </div>
+          <div class="index-bottom">
+            <img
+              src="./images/截屏2023-04-13 11.07.46.png"
+              alt=""
+            />
+            <span>$15.20</span>
+          </div>
+          <div class="index-bottom">
+            <img
+              src="./images/截屏2023-04-13 11.07.46.png"
+              alt=""
+            />
+            <span>$19.00</span>
+          </div>
         </div>
-    </main>
-    
-    <footer>
-        <div class="wrapper">© COPYRIGHT 2023 GREEN CUP | ALL RIGHTS RESERVED</div>
-    </footer>
-
-</body>
+      </div>
+      <div class="right">
+        <img
+          src="./images/s658309684298503775_p154_i3_w2880.webp"
+          alt=""
+        />
+      </div>
+    </div>
+    <script src="./js/js.js"></script>
+  </body>
 </html>

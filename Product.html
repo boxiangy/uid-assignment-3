@@ -1,46 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    </style>
     <title>Product</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="color.css">
-    <link rel="stylesheet" href="typography.css">
-</head>
-<body>
-    <header-product>
-        <div class="logo-menu"><img src="./materials/Green-Cup_Logo.svg" alt=""></div>
-        <div class="menu-button">
-            <a href="./Menu.html"><img src="./materials/arrow_back_FILL0_wght700_GRAD200_opsz48.png" alt=""></a>
-            <div class="menu-cart"><a href="./Cart.html"><img src="./materials/shopping_cart_FILL0_wght700_GRAD200_opsz48.png" alt=""></a></div>
+  </head>
+  <body>
+    <!-- logo of product page -->
+    <div class="top">
+      <img
+        src="./images/Green-Cup_Logo.svg"
+        alt=""
+      />
+      <div class="product-cart">
+        <a href="./Cart.html"><img
+          src="./images/shopping_cart_FILL0_wght700_GRAD200_opsz48.png"
+          alt=""
+        /></a>
+      </div>
+    </div>
+    <div class="product-top">
+      <img
+        onclick="goIndexPage('./menu.html')"
+        src="./images/arrow_back_FILL0_wght700_GRAD200_opsz48.png"
+        alt=""
+      />
+      <p>
+        Fresh Bowl
+      </p>
+    </div>
+    <div class="product-body">
+      <!-- food picture -->
+      <div class="left">
+        <img
+          src="./images/截屏2023-04-13 11.03.00.png"
+          alt=""
+        />
+      </div>
+      <div class="product-right">
+        <!-- food description -->
+        <p id="product-description">Description:</p>
+        <span
+          >Acai blended with banana. Layered with house made peanut butter
+          <br />
+          strawberries and granola.(VG, DF)</span
+        >
+        <div class="product1">
+          <!-- food option -->
+          <div class="product-detail">
+            <p>Peanut Butter Super Cup</p>
+            <p>Optional</p>
+          </div>
+          <div class="product-detail2">
+            <input type="checkbox" /> Peanut Butter
+          </div>
+          <div class="product-detail2"><input type="checkbox" /> Granola</div>
+          <div class="product-detail2">
+            <input type="checkbox" /> Strawberries
+          </div>
         </div>
-        <h1>Fresh Bowl</h1>
-    </header-product>
-
-    <main-product>
-        <img src="./materials/截屏2023-04-13 11.03.00.png" alt="">
-        <div class="detail-product">
-            <p id="description">Description:</p>
-            <p id="description2">Acai blended with banana. Layered with house made peanut butter, strawberries and granola. (VG, DF)</p>
-            <div class="checkbox">
-                <div class="checkbox-detail">
-                    <h3>Fresh Bowl</h3>
-                    <div>
-                    <img src="./materials/expand_less_FILL0_wght700_GRAD200_opsz48.png" alt="">
-                    </div>
-                </div>
-                <input type="checkbox">Peanut butter <br><br>
-                <input type="checkbox">Granola <br><br>
-                <input type="checkbox">Strawberries
-            </div>
-            <div class="price">
-                <div>$15.00</div>
-                <a href="./Cart.html"><button>Add To Cart</button></a>
-            </div>
+        <div class="product-bottom">
+          <p>
+            $19.00
+          </p>
+          <div id="pro-add">
+            <!-- add to cart and transfer to cart page -->
+           <a href="./Cart.html">
+            <img
+            src="./images/shopping_bag_FILL0_wght700_GRAD0_opsz48.png"
+            alt=""
+          />
+          Add To Cart
+           </a>
+          </div>
         </div>
-    </main-product>
-</body>
+      </div>
+      <script src="./js/js.js"></script>
+    </div>
+  </body>
 </html>

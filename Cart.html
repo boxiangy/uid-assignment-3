@@ -1,67 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/typography.css">
     <title>Cart</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="color.css">
-    <link rel="stylesheet" href="typography.css">
-</head>
-<body>
-    <header-cart>
-        <div class="wrapper"><img src="./materials/Green-Cup_Logo.svg" alt=""></div>
-        <a href="./Product.html"><img src="./materials/arrow_back_FILL0_wght700_GRAD200_opsz48.png" alt=""></a>
-        <h1>Your cart</h1>
-        <h3>HOW TO GET IT</h3>
-        <div class="position">
-            <div><img src="./materials/location_on_FILL0_wght700_GRAD0_opsz48.png" alt="">150 Lonsdale St</div>
-            <a href="./Location.html">Edit</a>
-        </div>
-        <div class="line"></div>
-    </header-cart>
-
-    <main-cart>
-        <div class="box">
-            <div class="top">
-                <button onclick="window.close()">CLOSE</button>
-             </div>
-            <table>
-            <tr> 
-                <td><input type="checkbox"id="all"></td>
-               <td>Product Picture</td>
-               <td>Product Information</td>   
-               <td>Price</td>
-               <td>Number</td>
-               <td>Total Number</td>
-               <td>Option</td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"id="check"></td>
-                <td><img src="./materials/截屏2023-04-13 11.03.00.png"></td>
-                <td>Fresh Bowl</td>   
-                <td>15.00</td>
-                <td><button class="cal">-</button><input type="text" readonly><button class="cal">+</button></td>
-                <td class="total">0</td>
-                <td><p class="del">Delete</p></td>
-             </tr>
-             <tr>
-                <td><input type="checkbox"id="check"></td>
-                <td><img src="./materials/截屏2023-05-20 11.19.56.png"></td>
-                <td>Green Magic</td>   
-                <td>14.00</td>
-                <td><button class="cal">-</button><input type="text"  readonly><button class="cal">+</button></td>
-                <td class="TOTAL">0</td>
-                <td><p class="del">Delete</p></td>
-             </tr>
-        </table>
-        <div class="foot">
-            <span>Subtotal：</span><span class="sumTotal"></span><a href="./Checkout.html"><button>Confirm Payment</button></a>
-        </div>
+  </head>
+  <body>
+    <!-- logo of cart page -->
+    <div class="top">
+      <img id="cart-back"
+        onclick="goIndexPage('./product.html')"
+        src="./images/arrow_back_FILL0_wght700_GRAD200_opsz48.png"
+        alt=""
+      />
+      <img
+        src="./images/Green-Cup_Logo.svg"
+        alt=""
+      />
+      <div></div>
     </div>
-    </main-cart>
-<script src="./Cart.js"></script>
-</body>
+<!-- cart top infomation -->
+    <div class="cart-body">
+      <div  class="cart-top">
+        <p class="your-cart">Your cart</p>
+        <span>HOW TO GET IT</span>
+        <div id="cart-top2">
+          <div>
+            <img
+              src="./images/location_on_FILL0_wght700_GRAD0_opsz48.png"
+              alt=""
+            />
+            150 Lonsdale St
+          </div>
+          <p>Edit</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- shopping cart which can add or delete the food -->
+    <main-cart>
+      <div class="box">
+          <div class="top">
+              <button onclick="window.close()">CLOSE</button>
+           </div>
+          <table>
+          <tr> 
+              <td><input type="checkbox"id="all"></td>
+             <td>Product Picture</td>
+             <td>Product Information</td>   
+             <td>Price</td>
+             <td>Number</td>
+             <td>Total Number</td>
+             <td>Option</td>
+          </tr>
+          <tr>
+              <td><input type="checkbox"id="check"></td>
+              <td><img src="./images/截屏2023-04-13 11.03.00.png"></td>
+              <td>Fresh Bowl</td>   
+              <td>15.00</td>
+              <td><button class="cal">-</button><input type="text" readonly><button class="cal">+</button></td>
+              <td class="total">0</td>
+              <td><p class="del">Delete</p></td>
+           </tr>
+           <tr>
+              <td><input type="checkbox"id="check"></td>
+              <td><img src="./images/截屏2023-05-20 11.19.56.png"></td>
+              <td>Green Magic</td>   
+              <td>14.00</td>
+              <td><button class="cal">-</button><input type="text"  readonly><button class="cal">+</button></td>
+              <td class="TOTAL">0</td>
+              <td><p class="del">Delete</p></td>
+           </tr>
+      </table>
+      <div class="foot">
+          <span style="font-size: .4rem; padding-right: .6rem;">Subtotal：</span><span class="sumTotal"></span><a href="./Checkout.html" target="_blank"><button>Confirm Payment</button></a>
+      </div>
+  </div>
+  </main-cart>
+    <script src="./js/js.js"></script>
+    <script src="./js/Cart.js"></script>
+  </body>
 </html>

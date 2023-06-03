@@ -1,125 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/typography.css">
     <title>Checkout</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="color.css">
-    <link rel="stylesheet" href="typography.css">
-</head>
-<body>
-    <header-checkout>
-        <div class="wrapper"><img src="./materials/Green-Cup_Logo.svg" alt=""></div>
-        <a href="./Cart.html"><img src="./materials/arrow_back_FILL0_wght700_GRAD200_opsz48.png" alt=""></a>
-        <h1>Checkout</h1>
-    </header-checkout>
-
+  </head>
+  <body>
+    <div class="top">
+      <img
+        style="width: 20%;transform: translateY(-0.15rem);"
+        src="./images/Green-Cup_Logo.svg"
+        alt=""
+      />
+    </div>
+    <div style="width: 100%;margin-bottom: .2rem;text-align: center;">
+      <p
+        style="font-size: .36rem;font-weight: 700;font-size: .5rem;margin: 0 auto;font-family: Elephant;"
+      >
+        Checkout
+      </p>
+    </div>
     <main-checkout>
-        <div class="item-summary">
-            <h3>YOUR SUMMARY</h3>
-            <div class="price-checkout">
-                <div>Fresh Bowl</div>
-                <div>$15.00</div>
-            </div>
-            <div class="price-checkout">
-                <div>Green Magic</div>
-                <div>$14.00</div>
-            </div>
-            <input type="text" placeholder="Add a note for the seller…">
-            <div id="sub-checkout">Subtotal:&nbsp;&nbsp;$29.00</div>
-        </div>
-        <div class="container">
+      <!-- food information -->
+      <div class="item-summary">
+          <h3>YOUR SUMMARY</h3>
+          <div class="price-checkout">
+              <div>Fresh Bowl</div>
+              <div>$15.00</div>
+          </div>
+          <div class="price-checkout">
+              <div>Green Magic</div>
+              <div>$14.00</div>
+          </div>
+          <input type="text" placeholder="Add a note for the seller…">
+          <div id="sub-checkout">Subtotal:&nbsp;&nbsp;$29.00</div>
+      </div>
+      <!-- bank card setting -->
+      <div class="container">
 
-            <div class="card-container">
-        
-                <div class="front">
-                    <div class="image">
-                        <img src="./materials/chip.png" alt="">
-                        <img src="./materials/visa.png" alt="">
-                    </div>
-                    <div class="card-number-box">###############</div>
-                    <div class="flexbox">
-                        <div class="box">
-                            <span>card holder</span>
-                            <div class="card-holder-name">full name</div>
-                        </div>
-                        <div class="box">
-                            <span>expires</span>
-                            <div class="expiration">
-                                <span class="exp-month">MM</span>
-                                <span class="exp-year">YY</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        
-                <div class="back">
-                    <div class="stripe"></div>
-                    <div class="box">
-                        <span>cvv</span>
-                        <div class="cvv-box"></div>
-                        <img src="image/visa.png" alt="">
-                    </div>
-                </div>
-        
-            </div>
-        
-            <form action="">
-                <div class="inputBox">
-                    <span>card number</span>
-                    <input type="text" maxlength="16" class="card-number-input">
-                </div>
-                <div class="inputBox">
-                    <span>card holder</span>
-                    <input type="text" class="card-holder-input">
-                </div>
-                <div class="flexbox">
-                    <div class="inputBox">
-                        <span>expiration mm</span>
-                        <select name="" id="" class="month-input">
-                            <option value="month" selected disabled>MONTH</option>
-                            <option value="01">01</option>
-                            <option value="02">02</option>
-                            <option value="03">03</option>
-                            <option value="04">04</option>
-                            <option value="05">05</option>
-                            <option value="06">06</option>
-                            <option value="07">07</option>
-                            <option value="08">08</option>
-                            <option value="09">09</option>
-                            <option value="10">10</option>
-                            <option value="11">11</option>
-                            <option value="12">12</option>
-                        </select>
-                    </div>
-                    <div class="inputBox">
-                        <span>expiration yy</span>
-                        <select name="" id="" class="year-input">
-                            <option value="year" selected disabled>YEAR</option>
-                            <option value="2023">2023</option>
-                            <option value="2024">2024</option>
-                            <option value="2025">2025</option>
-                            <option value="2026">2026</option>
-                            <option value="2027">2027</option>
-                            <option value="2028">2028</option>
-                            <option value="2029">2029</option>
-                            <option value="2030">2030</option>
-                            <option value="2031">2031</option>
-                            <option value="2032">2032</option>
-                        </select>
-                    </div>
-                    <div class="inputBox">
-                        <span>cvv</span>
-                        <input type="text" maxlength="4" class="cvv-input">
-                    </div>
-                </div>
-                <a href="./Confirm.html"><input type="button" value="SUBMIT" class="submit-btn"></a>
-            </form>
-        </div>     
-    </main-checkout>
-<script src="./Checkout.js"></script>
-</body>
+          <div class="card-container">
+      
+              <div class="front">
+                  <div class="image">
+                      <img src="./images/chip.png" alt="">
+                      <img src="./images/visa.png" alt="">
+                  </div>
+                  <div class="card-number-box">###############</div>
+                  <div class="flexbox">
+                      <div class="box">
+                          <span>CARD HOLDER</span>
+                          <div class="card-holder-name">FULL NAME</div>
+                      </div>
+                      <div class="box">
+                          <span>EXPIRES</span>
+                          <div class="expiration">
+                              <span class="exp-month">MM</span>
+                              <span class="exp-year">YY</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+              <div class="back">
+                  <div class="stripe"></div>
+                  <div class="box">
+                      <span>CVV</span>
+                      <div class="cvv-box"></div>
+                      <img src="image/visa.png" alt="">
+                  </div>
+              </div>
+      
+          </div>
+      
+          <form action="">
+              <div class="inputBox">
+                  <span>CARD NUMBER</span>
+                  <input type="text" maxlength="16" class="card-number-input">
+              </div>
+              <div class="inputBox">
+                  <span>CARD HOLDER</span>
+                  <input type="text" class="card-holder-input">
+              </div>
+              <div class="flexbox">
+                  <div class="inputBox">
+                      <span>EXPIRATION MM</span>
+                      <select name="" id="" class="month-input">
+                          <option value="month" selected disabled>MONTH</option>
+                          <option value="01">01</option>
+                          <option value="02">02</option>
+                          <option value="03">03</option>
+                          <option value="04">04</option>
+                          <option value="05">05</option>
+                          <option value="06">06</option>
+                          <option value="07">07</option>
+                          <option value="08">08</option>
+                          <option value="09">09</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                      </select>
+                  </div>
+                  <div class="inputBox">
+                      <span>EXPIRATION YY</span>
+                      <select name="" id="" class="year-input">
+                          <option value="year" selected disabled>YEAR</option>
+                          <option value="2023">2023</option>
+                          <option value="2024">2024</option>
+                          <option value="2025">2025</option>
+                          <option value="2026">2026</option>
+                          <option value="2027">2027</option>
+                          <option value="2028">2028</option>
+                          <option value="2029">2029</option>
+                          <option value="2030">2030</option>
+                          <option value="2031">2031</option>
+                          <option value="2032">2032</option>
+                      </select>
+                  </div>
+                  <div class="inputBox">
+                      <span>CVV</span>
+                      <input type="text" maxlength="4" class="cvv-input">
+                  </div>
+              </div>
+              <a href="./Confirmation.html"><input type="button" value="SUBMIT" class="submit-btn"></a>
+          </form>
+      </div>     
+  </main-checkout>
+    <script src="./js/js.js"></script>
+    <script src="./js/Checkout.js"></script>
+  </body>
 </html>

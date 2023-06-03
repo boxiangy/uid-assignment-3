@@ -1,0 +1,204 @@
+/* this css file is to setting the font of every page */
+/* index page */
+.navigation {
+    font-size: .28rem;
+    font-family: Mukta Mahee;
+}
+
+.search input {
+    font-family: Mukta Mahee;
+}
+
+.left .index-location #location {
+    font-size: .24rem;
+    font-family: ITF Devanagari;
+    opacity: 0.5;
+}
+
+.index-location p {
+    font-size: .24rem;
+    font-family: ITF Devanagari;
+}
+
+#discount {
+    font-size: .5rem;
+}
+
+#discount-number {
+    font-size: .5rem;
+    font-family: Elephant;
+}
+
+#order-now {
+    font-size: .3rem;
+}
+
+.left .recommend {
+    font-size: .28rem;
+}
+
+.left .index-recommend {
+    font-size: .28rem;
+    font-weight: 700;
+}
+
+.recommend-detail span {
+    font-family: Mukta Mahee;
+}
+
+.index-recommend .index-bottom span {
+    font-family: Mukta Mahee;
+}
+
+input::placeholder {
+    font-size: .2rem;
+}
+
+
+/* confirmation page */
+.confirm-body h2 {
+    font-size: .9rem;
+    font-family: Elephant;
+}
+
+.confirm-body h3 {
+    font-size: .4rem;
+}
+
+.confirm-body span {
+    font-size: .3rem;
+}
+
+.confirm-body .confirm-bottom {
+    font-size: .25rem;
+}
+
+.confirm-detail .confirm-price {
+    font-weight: 700;
+}
+
+#confirm-sub {
+    font-size: .3rem;
+    font-weight: 700;
+}
+
+/* location page */
+.top .location-top1 {
+    font-size: .28rem;
+}
+
+#select-location {
+    font-size: .5rem;
+    font-weight: 700;
+    font-family: Elephant;
+}
+
+.location-middle .location1 {
+    font-size: .28rem;
+}
+
+.location-name .location-detail {
+    font-size: .3rem;
+}
+
+.location-detail .location-name2 {
+    font-size: .2rem;
+}
+
+.location .location-detail2 {
+    font-size: .2rem;
+}
+
+#lo-name {
+    font-size: .2rem;
+}
+
+/* menu page */
+.menu3 .menu-title {
+    font-size: .8rem;
+    font-weight: 700;
+    font-family: Elephant;
+}
+
+.menu-search input {
+    font-family: Mukta Mahee;
+}
+
+.menu-detail {
+    font-size: .32rem;
+    font-family: Mukta Mahee;
+}
+
+.menu-detail2 {
+    font-family: Mukta Mahee;
+}
+
+.menu-detail4 h3 {
+    font-size: .2rem;
+}
+
+.menu-detail4 span {
+    font-size: .18rem;
+}
+
+.menu-detail4 a {
+    font-size: .25rem;
+}
+
+/* product page */
+.product-top p {
+    font-size: .36rem;
+    font-weight: 700;
+    font-size: .5rem;
+    font-family: Elephant;
+}
+
+#product-description {
+    font-family: Mukta Mahee;
+}
+
+.product-right span {
+    font-size: .28rem;
+}
+
+.product-right .product1 .product-detail {
+    font-family: Mukta Mahee;
+}
+
+.product-right .product-bottom p {
+    font-size: .32rem;
+    font-weight: 700;
+}
+
+#pro-add {
+    font-weight: 700;
+}
+
+/* cart page */
+.cart-top .your-cart {
+    font-family: Elephant;
+    font-size: .5rem;
+    font-weight: 700;
+}
+
+main-cart table tr td{
+    font-family: Mukta Mahee;
+    font-size: .3rem;
+}
+
+/* checkout page */
+main-checkout .container form .submit-btn{
+    font-size: 20px;
+}
+
+main-checkout .container .card-container .front .card-number-box{
+    font-size: 22px;
+}
+
+main-checkout .container .card-container .front .flexbox .box{
+    font-size: 15px;
+}
+
+main-checkout .container .card-container .back .box span{
+    font-size: 15px;
+}

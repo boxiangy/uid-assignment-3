@@ -1,0 +1,703 @@
+/* this css file is to setting the layout of each page */
+/* index page */
+body {
+    min-width: 320px;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.top {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation a {
+    margin: 0 .1rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.search input {
+    width: 120%;
+    height: .5rem;
+    border-radius: .1rem;
+    padding-left: .5rem;
+    padding-right: .1rem;
+}
+
+.search img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    left: .1rem;
+    opacity:0.5;
+}
+
+.index-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.left .index-location {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.left .index-location #location {
+    border: .02rem solid #000;
+    border-radius: .1rem;
+    padding: .1rem .16rem;
+    cursor: pointer;
+}
+
+.index-location img {
+    width: .4rem;
+    height: .4rem;
+    opacity: 0.5;
+}
+
+
+
+#discount {
+    text-align: center;
+}
+
+#discount-number {
+    text-align: center;
+}
+
+#order-now {
+    margin: 0 auto;
+    padding: .06rem .36rem;
+    border-radius: .16rem;
+    cursor: pointer;
+}
+
+.left .recommend {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left .index-recommend {
+    display: flex;
+    justify-content: space-around;
+}
+
+.index-recommend .recommend-detail {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommend-detail img {
+    width: 1.8rem;
+}
+
+
+.index-recommend .index-bottom {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-recommend .index-bottom img {
+    width: 1.8rem;
+}
+
+.left,
+.right {
+    flex: 1;
+}
+
+.left {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+}
+
+/* confirmation page */
+.confirm-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+}
+
+#confirm-back {
+    width: 50rpx;
+    cursor: pointer;
+}
+
+#confirm-logo {
+    width: 20%;
+    transform: translateY(-0.15rem);
+}
+
+.confirm-body img {
+    width: 4rem;
+}
+
+.confirm-body .confirm-bottom {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.confirm-bottom .confirm-detail {
+    display: flex;
+    flex-flow: column;
+}
+
+#confirm-sub {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* location page */
+
+.top img {
+    width: 20%;
+    transform: translateY(-0.15rem);
+}
+
+.top .location-top2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.location-middle {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: .2rem 0;
+}
+
+.location-middle .location1 {
+    display: flex;
+    align-items: center;
+}
+
+.location-middle .location1 img {
+    width: .4rem;
+    opacity: 0.5;
+}
+
+.location-name {
+    display: flex;
+    flex-flow: column;
+}
+
+.location-name .location-detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .6rem;
+    margin-bottom: .3rem;
+}
+
+.location-name .location-detail input {
+    transform: translateX(.4rem);
+}
+
+.location .location-detail2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .3rem;
+    margin-bottom: .3rem;
+    position: relative;
+}
+
+#lo-name {
+    padding: .1rem .1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(.6);
+    left: -1rem;
+}
+
+/* menu page */
+.hover {
+    cursor: pointer;
+    border-bottom: .04rem solid transparent;
+}
+
+.hover:hover {
+    border-bottom: .04rem solid #000;
+}
+
+.act {
+    border-bottom: .04rem solid #000;
+}
+
+.top .menu1 {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .1rem;
+    cursor: pointer;
+}
+
+.top .menu1 img {
+    width: .6rem;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu2 img {
+    width: .6rem;
+    height: .6rem;
+}
+
+.menu2 .menu3 {
+    display: flex;
+    flex-flow: column;
+}
+
+.menu3 .menu-title {
+    transform: translateX(-30%);
+}
+
+.menu-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 4rem;
+    margin: .3rem auto;
+}
+
+.menu-search input {
+    width: 120%;
+    height: .5rem;
+    border-radius: .1rem;
+    padding-left: .5rem;
+    padding-right: .1rem;
+    opacity: 0.5;
+}
+
+.menu-search img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    left: .1rem; 
+    opacity: 0.5;
+}
+
+.menu-detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.menu-detail2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: .4rem;
+}
+
+.menu-detail2 .menu-detail3 {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-detail3 img {
+    width: 50%;
+}
+
+.menu-detail3 .menu-detail4 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+/* product page */
+.product-cart {
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255,255,255,.5);
+    border-radius: .1rem;
+    cursor: pointer;
+}
+
+.product-cart img {
+    width: .6rem;
+}
+
+.product-top {
+    width: 100%;
+    margin-bottom: .2rem;
+}
+
+.product-top img {
+    width: .5rem;
+}
+
+.product-body{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.product-body .left img {
+    width: 100%;
+    height: 100%;
+}
+.product-right {
+    padding: 0 .4rem;
+    font-size: .2rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: left;
+    justify-content: space-between;
+}
+
+
+.product-right .product1 {
+    width: 90%;
+    background:#ebdede;
+    padding: .2rem .4rem;
+    border-radius: .2rem;
+    margin-top: .2rem;
+    margin:0 auto;
+} 
+
+.product-right .product1 .product-detail {
+    display: flex;
+    justify-content: space-between;
+    margin: .2rem 0;
+}
+
+.product-right .product1 .product-detail2 {
+    margin: .2rem 0;
+}
+
+.product-right .product-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#pro-add {
+    padding: .06rem .1rem;
+    border-radius: .1rem;
+    display: flex;
+    align-items: center;
+}
+
+#pro-add img {
+    width: .3rem;
+}
+
+/* cart page */
+#cart-back {
+    width: .5rem;
+}
+
+.cart-top {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    font-size: .2rem;
+    height: 1.5rem;
+    flex-flow: column;
+}
+
+
+#cart-top2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#cart-top2 img {
+    width: .4rem;
+    opacity: 0.5;
+}
+
+main-cart .box{
+    width: 100%;
+    height: 120%;
+    margin: 0 auto;
+}
+
+main-cart .top{
+  padding: .1rem .16rem;
+  align-items: center;
+}
+
+main-cart .top button{
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+}
+
+main-cart table{
+  width: 880px;
+  text-align: center;
+  margin: 0 auto;  
+}
+
+main-cart table tr td{
+  padding: .4rem 0;
+}
+
+main-cart table tr td img{
+  width: 230px;
+  height: 170px;
+}
+
+main-cart table tr td input{
+  width: 45px;
+}
+
+main-cart table tr td button{
+  width: 20px;
+  height: 20px;
+}
+
+main-cart .foot{
+  width: 680px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px dotted gray;
+}
+
+main-cart .foot span:nth-of-type(2){
+  margin-right: 150px;
+}
+
+main-cart .foot button{
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* checkout page */
+main-checkout {
+    display: flex;
+    justify-content: space-around;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+}
+
+main-checkout .item-summary {
+   font-size: .3rem;
+    margin-top: 110px;
+    width: 100%;
+	  height: 100%;
+    margin-left: .2rem;
+    border-radius: 15px;
+}
+
+
+main-checkout .item-summary .price-checkout {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12px;
+}
+
+main-checkout .item-summary input {
+    margin-left: 12px;
+    width: 100%;
+	  height: 100%;
+	  border-radius: 15px;
+    border:2px solid rgba(0,0,0,.3);
+}
+
+#sub-checkout {
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+
+main-checkout .container{
+    margin-left: 122px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+}
+
+main-checkout .container form{
+    border-radius: 5px;
+    padding: 20px;
+    width: 600px;
+    padding-top: 160px;
+}
+
+main-checkout .container form .inputBox{
+    margin-top: 20px;
+}
+
+main-checkout .container form .inputBox span{
+    display: block;
+   font-size: .3rem;
+    padding-bottom: 5px;
+}
+
+main-checkout .container form .inputBox input,
+.container form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main-checkout .container form .flexbox{
+    display: flex;
+    gap:15px;
+}
+
+main-checkout .container form .flexbox .inputBox{
+    flex:1 1 150px;
+}
+
+main-checkout .container form .submit-btn{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+main-checkout .container form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+main-checkout .container .card-container{
+    margin-bottom: -150px;
+    position: relative;
+    height: 250px;
+    width: 400px;
+}
+
+main-checkout .container .card-container .front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+}
+
+main-checkout .container .card-container .front .image{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+main-checkout .container .card-container .front .image img{
+    height: 50px;
+}
+
+main-checkout .container .card-container .front .card-number-box{
+    padding:30px 0;
+}
+
+main-checkout .container .card-container .front .flexbox{
+    display: flex;
+}
+
+main-checkout .container .card-container .front .flexbox .box:nth-child(1){
+    margin-right: auto;
+}
+
+main-checkout .container .card-container .back{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    transform:perspective(1000px) rotateY(180deg);
+    transition:transform .4s ease-out;
+}
+
+main-checkout .container .card-container .back .stripe{
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+main-checkout .container .card-container .back .box{
+    padding: 0 20px;
+}
+
+main-checkout .container .card-container .back .box .cvv-box{
+    height: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+main-checkout .container .card-container .back .box img{
+    margin-top: 30px;
+    height: 30px;
+}

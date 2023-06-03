@@ -1,49 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>green cup Location</title>
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="color.css">
-    <link rel="stylesheet" href="typography.css">
-</head>
-
-<body>
-    <header-location>
-        <div class="logo"><img src="./materials/Green-Cup_Logo.svg" alt=""></div>
-        <h1>Select location</h1>
-        <div class="wrapper"><img src="./materials/location_on_FILL0_wght700_GRAD0_opsz48.png" alt="">Find the nearest store</div>
-    </header-location>
-
-    <main-location>
-        <div class="location-choose">
-            <a href="./index.html"><img src="./materials/arrow_back_FILL0_wght700_GRAD200_opsz48.png" alt=""></a>
-            <div class="choose-location">
-                <input type="radio" name="location">
-                <div class="location-name">Green Cup Lonsdale</div>
-                <div class="way">150 Lonsdale St<br>Melbourne VIC 3004</div>
-                <img src="./materials/staticmap.png" alt="">
-                <div class="distance">1.2km</div>
-            </div>
-            <div class="choose-location">
-                <input type="radio" name="location">
-                <div class="location-name">Green Cup Carton</div>
-                <div class="way">223 Faraday St <br>Carton Vic 3053</div>
-                <div id="id"><img src="./materials/staticmap.png" alt=""></div>
-                <div class="distance">2.3km</div>
-            </div>
-            <div class="choose-location">
-                <input type="radio" name="location">
-                <div class="location-name">Green Cup Hawthorn</div>
-                <div class="way">763 Glenferrie Road  <br>Hawthorn Vic 3121</div>
-                <img src="./materials/staticmap.png" alt="">
-                <div class="distance">4.5km</div>
-            </div>
-            <a href="./index.html"><button class="confirm"> Confirm Location</button></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0"
+    />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <style>
+      .body {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column;
+        width: 100%; 
+        background-color: #ffffff;
+        padding: 0 .8rem;
+      }
+    </style>
+    <title>Location</title>
+  </head>
+  <body>
+    <!-- logo of location page -->
+    <div class="top">
+      <img
+        src="./images/Green-Cup_Logo.svg"
+        alt=""
+      />
+      <div class="location-top1"></div>
+      <div class="location-top2"></div>
+    </div>
+    <div class="location-middle">
+      <div id="select-location">Select Location</div>
+      <div class="location1">
+        <img
+          src="./images/location_on_FILL0_wght700_GRAD0_opsz48.png"
+          alt=""
+        />
+        Find The Nearest Store
+      </div>
+    </div>
+    <div class="body">
+      <div style="width: 100%;">
+        <img
+          onclick="goIndexPage('./index.html')"
+          style="width: .5rem;"
+          src="./images/arrow_back_FILL0_wght700_GRAD200_opsz48.png"
+          alt=""
+        />
+      </div>
+      <!-- the information of each shop -->
+      <div class="location-name">
+        <div class="location-detail">
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+          />
+          <div>Green Cup Lonsdale</div>
+          <div class="location-name2">
+            150 Lonsdale St <br />
+            Melbourne VIC 3004
+          </div>
+          <img style="width: 2.2rem;" src="./images/staticmap.png" alt="" />
+          <span>1.2km</span>
         </div>
-    </main-location>
-</body>
+        <div class="location-detail">
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+          />
+          <div>Green Cup Carton</div>
+          <div class="location-name2">
+            223 faraday St <br />
+            Carton Vic 3053
+          </div>
+          <img style="width: 2.2rem;" src="./images/staticmap.png" alt="" />
+          <span>2.3km</span>
+        </div>
+        <div class="location-detail2"
+          style="width: 100%;display: flex;align-items: center;justify-content: space-between;font-size: .2rem;padding: 0 .3rem;margin-bottom: .3rem;position: relative;" -->
+        >
+          <div id="lo-name">
+            <!-- confirmation button -->
+            <a href="./Index.html">Confirm location</a>
+          </div>
+          <input
+            type="radio"
+            name="gender"
+            value="male"
+          />
+          <div>Green Cup Hawthorn</div>
+          <div class="location-name2">
+            763 Glenferrie Road <br />
+            Hawthorn VIC 3121
+          </div>
+          <img style="width: 2.2rem;" src="./images/staticmap.png" alt="" />
+          <span>4.5km</span>
+        </div>
+      </div>
+    </div>
+    <script src="./js/js.js"></script>
+  </body>
 </html>
